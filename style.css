@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-container {
+    padding: 20px;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87ceeb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .score {
+    font-size: 24px;
+    background-color: #2d9cdb;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .circle-number {
+    font-size: 32px;
+    color: black;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  
+  #generate-button, #restart-button {
+    background-color: limegreen;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  #generate-button:hover, #restart-button:hover {
+    background-color: green;
+  }
+  
+  #winner-message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  
